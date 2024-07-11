@@ -2,7 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+.main-backdrop{
+  background-image: url(../public/backdrop.svg);
+  height: 1024px;
+  background-size: cover;
+
+}
+
+.profile-sunflower-backdrop{
+  background-image: url(../public/sunflower_code.png);
+  width: 863px;
+  height: 819px;
+  background-repeat: no-repeat;
+}
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +44,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
