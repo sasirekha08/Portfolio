@@ -2,9 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-.main-backdrop{
-  background-image: url(../public/backdrop.svg);
-  height: 1024px;
+.main-backdrop1{
+  /* background-image: url(../public/backdrop.svg); */
+  background:
+linear-gradient(#F7EDE2 14%, #FDEAA3 28%, #F6839C 42%, #F472B6 56%, #7D80DA 70%, #7DD3FC 84%, #6EE7B7 98%);
+
+height: 10004px;
+
+  background-size: cover;
+
+}
+
+.main-backdrop2{
+  background-image: url(../public/full_backdrop.png);
   background-size: cover;
 
 }
