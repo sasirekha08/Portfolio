@@ -4,7 +4,7 @@ import { FiGithub, FiLinkedin } from 'react-icons/fi'
 import { GrDocumentText } from 'react-icons/gr'
 const ContactMe = () => {
     return (
-        <div className='max-w-5xl flex flex-col items-center mx-auto pt-14'>
+        <section id='contact' className='max-w-5xl flex flex-col items-center mx-auto pt-14'>
             <div
                 className={`${reenieBeenie.className} text-center text-8xl text-[#D732A8] flex flex-col space-y-10`}>
                 <h1>You can contact me at</h1>
@@ -49,7 +49,7 @@ const ContactMe = () => {
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

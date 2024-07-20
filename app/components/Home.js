@@ -4,7 +4,7 @@ import { reenieBeenie } from '../fonts'
 
 const Home = () => {
   return (
-    <div className='grid grid-cols-2 '>
+    <section id="#home" className='grid grid-cols-2 '>
     <div className='profile-sunflower-backdrop '>
         <Image
             src={Profile}
@@ -24,7 +24,7 @@ const Home = () => {
             </span>
         </h1>
     </div>
-</div>
+</section>
   )
 }
 

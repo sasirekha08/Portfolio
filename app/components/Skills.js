@@ -19,7 +19,7 @@ const Skills = () => {
         setInterpersonalClicked(true)
     }
     return (
-        <div className='flex flex-col align-middle  justify-center'>
+        <section id='skills' className='flex flex-col align-middle  justify-center'>
             <h1
                 className={`text-[64px] text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-8`}>
                 My Skills!
@@ -63,7 +63,7 @@ const Skills = () => {
                     height='663'
                 />
             ) : null}
-        </div>
+        </section>
     )
 }
 

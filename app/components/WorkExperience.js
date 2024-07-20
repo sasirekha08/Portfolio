@@ -7,7 +7,7 @@ import Software from '../../public/2021_2024.png'
 import TorryHarris from '../../public/torry_harris.png'
 const WorkExperience = () => {
     return (
-        <div className='flex flex-col align-middle  justify-center'>
+        <section id='work' className='flex flex-col align-middle  justify-center'>
             <h1
                 className={`text-[64px] text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-8`}>
                 Work Experince
@@ -131,7 +131,7 @@ const WorkExperience = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

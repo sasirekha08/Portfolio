@@ -35,7 +35,7 @@ const Projects = () => {
         }
     ]
     return (
-        <div className='flex flex-col align-middle  justify-center'>
+        <section id='projects' className='flex flex-col align-middle  justify-center'>
             <h1
                 className={`text-[64px] text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-8`}>
                 Projects
@@ -52,15 +52,15 @@ const Projects = () => {
                         height='756'
                     />
                     <div className='flex flex-row justify-center'>
-                        <Link href={project.demoLink} className={`${robotoMono.className} px-4 border border-[#4F378B] text-[#4F378B] hover:underline py-2 rounded-l-3xl`} rel="noopener noreferrer" target="_blank">Live Demo</Link>
-                        <Link href={project.sourceLink} className={`${robotoMono.className} px-4 border-r border-y border-[#4F378B] text-[#4F378B] hover:underline py-2 rounded-r-3xl`} rel="noopener noreferrer" target="_blank">View Source</Link>
+                        <Link href={project.demoLink} className={`${robotoMono.className} px-4 border border-[#4F378B] text-[#4F378B] hover:bg-[#c4b8e2] py-2 rounded-l-3xl`} rel="noopener noreferrer" target="_blank">Live Demo</Link>
+                        <Link href={project.sourceLink} className={`${robotoMono.className} px-4 border-r border-y border-[#4F378B] text-[#4F378B] hover:bg-[#c4b8e2] py-2 rounded-r-3xl`} rel="noopener noreferrer" target="_blank">View Source</Link>
                     </div>
                 </div>
 
                     )
                 })}
             </div>
-        </div>
+        </section>
     )
 }
 
