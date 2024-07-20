@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 import Logo from '../../public/logo.svg'
 import { FiMoon } from 'react-icons/fi'
 const Header = () => {

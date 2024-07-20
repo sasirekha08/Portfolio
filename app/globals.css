@@ -4,10 +4,12 @@
 
 .main-backdrop1{
   /* background-image: url(../public/backdrop.svg); */
-  background:
-linear-gradient(#F7EDE2 14%, #FDEAA3 28%, #F6839C 42%, #F472B6 56%, #7D80DA 70%, #7DD3FC 84%, #6EE7B7 98%);
+  /* background:
+linear-gradient(#F7EDE2 14%, #FDEAA3 28%, #F6839C 42%, #F472B6 56%, #7D80DA 70%, #7DD3FC 84%, #6EE7B7 98%); */
+background: linear-gradient(180deg, #FDF3E8 14.2%, #FFF5D9 28%, #FFF3E5 42%, #FFF1F2 56%, #F3E9FF 70%, #F3F4FF 84%, #E2FFF4 98%);
+background-blend-mode: color;
 
-height: 10004px;
+/* height: 10004px; */
 
   background-size: cover;
 

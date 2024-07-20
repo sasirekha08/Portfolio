@@ -1,8 +1,8 @@
 'use client'
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import Image from 'next/image'
 
-import { reenieBeenie, robotoMono } from '../fonts'
+import { reenieBeenie } from '../fonts'
 import MySkills from '../../public/my_skills.png'
 import TechnicalLight from '../../public/technical_light.png'
 import InterpersonalLight from '../../public/interpersonal_light.png'
