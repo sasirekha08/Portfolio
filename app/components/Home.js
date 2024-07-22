@@ -23,7 +23,7 @@ const Home = () => {
                     Hello!{' '}
                 </h1>
                 <h1 className='' style={{ fontWeight: '500' }}>
-                    I'm{' '}
+                    I&apos;m{' '}
                     <Link href='https://github.com/sasirekha08' rel='noopener noreferrer' target='_blank'>
                         <span className='underline decoration-[3px] underline-offset-4 lg:underline-offset-8'>
                             Sasi Rekha

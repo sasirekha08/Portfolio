@@ -23,25 +23,25 @@ const AboutMe = () => {
             <div
                 className={` pt-24 lg:pt-32 flex flex-col align-middle justify-center  text-[#8E8E8E]  space-y-8 text-base lg:text-xl ${robotoMono.className}`}>
                 <p>
-                    Hey there! I'm a passionate <span className='text-[#ED7D31]'>frontend developer</span> who
+                    Hey there! I&apos;m a passionate <span className='text-[#ED7D31]'>frontend developer</span> who
                     loves turning ideas into beautiful,{' '}
                     <span className='text-[#ED7D31]'>functional web interfaces</span>. With a knack for making
                     things run smoothly and look amazing, I thrive on creating experiences that users love and
                     remember.
                 </p>
                 <p>
-                    I've had the pleasure of{' '}
+                    I&apos;ve had the pleasure of{' '}
                     <span className='text-[#ED7D31]'>mentoring new developers, sharing my knowledge,</span>{' '}
-                    and watching them grow into confident coders. My goal is to keep pushing the boundaries of
-                    digital design and make the online world a better place, one pixel at a time.
+                    and watching them grow into confident coders. My goal is to keep pushing the  <span className='text-[#ED7D31]'>boundaries of
+                    digital design</span> and make the online world a better place,  <span className='text-[#ED7D31]'>one pixel at a time</span>.
                 </p>
                 <p>
-                    When I'm not coding, you can find me immersed in art, music, dance, or exploring new
-                    places. I love diving into mini-projects and learning new skills – during the pandemic, I
-                    even taught myself to crochet and play the flute! And let's not forget, I’m always
-                    happiest with a furry friend by my side.
+                    When I&apos;m not coding, you can find me immersed in  <span className='text-[#ED7D31]'>art, music, dance, or exploring new
+                    places</span>. I love diving into mini-projects and  <span className='text-[#ED7D31]'>learning new skills</span> – during the pandemic, I
+                    even taught myself to crochet and play the flute! And let&apos;s not forget, I&apos;m always
+                    <span className='text-[#ED7D31]'> happiest with a furry friend</span> by my side.
                 </p>
-                <p>Let's connect and see how we can create something amazing together!</p>
+                <p>Let&apos;s  <span className='text-[#ED7D31]'>connect</span> and see how we can create  <span className='text-[#ED7D31]'>something amazing</span> together!</p>
             </div>
         </section>
     )
