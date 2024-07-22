@@ -4,24 +4,24 @@ import { reenieBeenie, robotoMono } from '../fonts'
 
 const AboutMe = () => {
     return (
-        <section id="about" className=''>
+        <section id="about" className='max-w-4xl mx-auto'>
             <div className='flex flex-col align-middle justify-center'>
                 <h1
-                    className={`text-[64px] text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-8`}>
+                    className={`text-5xl lg:text-6xl text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-8`}>
                     About Me!
                 </h1>
 
                 <Image
                     src={AboutMeCollage}
                     alt='About Me'
-                    className='pt-12 mx-auto'
+                    className='pt-8 lg:pt-12 mx-auto'
                     width='898'
                     height='756'
                 />
             </div>
 
             <div
-                className={`pt-32 flex flex-col align-middle justify-center max-w-4xl text-[#8E8E8E] mx-auto space-y-8 text-xl ${robotoMono.className}`}>
+                className={` pt-24 lg:pt-32 flex flex-col align-middle justify-center  text-[#8E8E8E]  space-y-8 text-base lg:text-xl ${robotoMono.className}`}>
                 <p>
                     Hey there! I'm a passionate <span className='text-[#ED7D31]'>frontend developer</span> who
                     loves turning ideas into beautiful,{' '}

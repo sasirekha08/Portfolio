@@ -13,8 +13,8 @@ export default function App() {
                 <div className='main-backdrop2 '>
                     <div className='2xl:max-w-[1700px] mx-auto'>
                         <SideNavBar />
-                        <div className='space-y-36 py-16 px-10 scroll-smooth'>
-                            <Home />
+                        <div className='space-y-28 lg:space-y-36 py-16 px-4 lg:px-10 scroll-smooth'>
+                            {/* <Home /> */}
                             <AboutMe />
                             <Skills />
                             <WorkExperience />

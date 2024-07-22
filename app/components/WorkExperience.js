@@ -7,21 +7,21 @@ import Software from '../../public/2021_2024.png'
 import TorryHarris from '../../public/torry_harris.png'
 const WorkExperience = () => {
     return (
-        <section id='work' className='flex flex-col align-middle  justify-center'>
+        <section id='work' className='flex flex-col max-w-5xl mx-auto align-middle  justify-center'>
             <h1
-                className={`text-[64px] text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-8`}>
+                className={`text-5xl lg:text-6xl text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-8`}>
                 Work Experince
             </h1>
-            <div className='pt-20 max-w-4xl mx-auto space-y-16 flex flex-col'>
-                <div className='space-x-10 flex flex-row'>
-                    <div className='flex flex-col space-y-6 items-end'>
-                        <Image src={Software} alt='Software Engineer' className='' width='386' height='64' />
-                        <p className={`${robotoMono.className} text-lg text-[#8E8E8E]`}>
+            <div className='pt-20  space-y-16 flex flex-col'>
+                <div className='mx-2 lg:mx-0 space-y-10 lg:space-y-0 space-x-0 lg:space-x-10 flex flex-col lg:flex-row'>
+                    <div className='flex flex-col lg:basis-1/3 space-y-1.5 lg:space-y-6 lg:items-end '>
+                        <Image src={Software} alt='Software Engineer' className='w-[300px] lg:w-[386px] lg:h-[51px]'  />
+                        <p className={`${robotoMono.className} text-sm lg:text-lg text-[#8E8E8E]`}>
                             November 2021 - April 2024
                         </p>
-                        <Image src={TorryHarris} alt='Torry Harris' className='' width='180' height='70' />
+                        <Image src={TorryHarris} alt='Torry Harris' className='hidden lg:inline-block' width='180' height='70' />
                     </div>
-                    <div className='flex flex-col space-y-8 text-xl text-[#8E8E8E] w-[754px]'>
+                    <div className={`${robotoMono.className} flex flex-col align-middle justify-center lg:basis-2/3 mt-10 lg:mt-0 space-y-8 text-base lg:text-xl text-[#8E8E8E]`}>
                         <p>
                             <span className='text-[#ED7D31]'>
                                 / Contributed significantly to creating a visual development platform
@@ -67,21 +67,19 @@ const WorkExperience = () => {
                         </p>
                     </div>
                 </div>
-                <div className='space-x-10 flex flex-row'>
-                    <div className='flex flex-col space-y-6 items-end'>
+                <div className='mx-2 lg:mx-0 space-y-10 lg:space-y-0 space-x-0 lg:space-x-10 flex flex-col lg:flex-row'>
+                    <div className='flex flex-col lg:basis-1/3 space-y-1.5 lg:space-y-6 lg:items-end '>
                         <Image
                             src={Trainer}
                             alt='No code Low code Trainer'
-                            className=''
-                            width='386'
-                            height='64'
+                            className='w-[300px] lg:w-[386px] lg:h-[51px]' 
                         />
-                        <p className={`${robotoMono.className} text-lg text-[#8E8E8E]`}>
+                        <p className={`${robotoMono.className} text-sm lg:text-lg text-[#8E8E8E]`}>
                             June 2021 - December 2021
                         </p>
-                        <Image src={TorryHarris} alt='Torry Harris' className='' width='180' height='70' />
+                        <Image src={TorryHarris} alt='Torry Harris' className='hidden lg:inline-block' width='180' height='70' />
                     </div>
-                    <div className='flex flex-col space-y-8 text-xl text-[#8E8E8E] w-[754px]'>
+                    <div className={`${robotoMono.className} flex flex-col align-middle justify-center lg:basis-2/3 mt-10 lg:mt-0 space-y-8 text-base lg:text-xl text-[#8E8E8E]`}>
                         <p>
                             <span className='text-[#ED7D31]'>/ Delivered comprehensive training</span> on
                             cutting-edge technologies, including low-code and no-code development,
@@ -94,21 +92,19 @@ const WorkExperience = () => {
                         </p>
                     </div>
                 </div>
-                <div className='space-x-10 flex flex-row'>
-                    <div className='flex flex-col space-y-6 items-end'>
+                <div className='mx-2 lg:mx-0 space-y-10 lg:space-y-0 space-x-0 lg:space-x-10 flex flex-col lg:flex-row'>
+                <div className='flex flex-col lg:basis-1/3 space-y-1.5 lg:space-y-6 lg:items-end '>
                         <Image
                             src={Associate}
                             alt='Associate Software Engineer'
-                            className=''
-                            width='386'
-                            height='64'
+                            className='w-[300px] lg:w-[386px] lg:h-[51px]' 
                         />
-                        <p className={`${robotoMono.className} text-lg text-[#8E8E8E]`}>
+                        <p className={`${robotoMono.className} text-sm lg:text-lg text-[#8E8E8E]`}>
                             August 2019 - October 2021
                         </p>
-                        <Image src={TorryHarris} alt='Torry Harris' className='' width='180' height='70' />
+                        <Image src={TorryHarris} alt='Torry Harris' className='hidden lg:inline-block' width='180' height='70' />
                     </div>
-                    <div className='flex flex-col space-y-8 text-xl text-[#8E8E8E] w-[754px]'>
+                    <div className={`${robotoMono.className} flex flex-col align-middle justify-center lg:basis-2/3 mt-10 lg:mt-0 space-y-8 text-base lg:text-xl text-[#8E8E8E]`}>
                         <p>
                             <span className='text-[#ED7D31]'>
                                 / Developed multiple responsive, full fledged websites
