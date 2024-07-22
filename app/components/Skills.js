@@ -21,7 +21,7 @@ const Skills = () => {
     return (
         <section id='skills' className='flex flex-col align-middle max-w-5xl mx-auto  justify-center'>
             <h1
-                className={`text-5xl lg:text-6xl text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-8`}>
+                className={`text-5xl lg:text-6xl text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-4 lg:underline-offset-8`}>
                 My Skills!
             </h1>
             {!technicalClicked && !interpersonalClicked ? (

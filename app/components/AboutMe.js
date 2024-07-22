@@ -7,7 +7,7 @@ const AboutMe = () => {
         <section id="about" className='max-w-4xl mx-auto'>
             <div className='flex flex-col align-middle justify-center'>
                 <h1
-                    className={`text-5xl lg:text-6xl text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-8`}>
+                    className={`text-5xl lg:text-6xl text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-4 lg:underline-offset-8`}>
                     About Me!
                 </h1>
 

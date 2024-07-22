@@ -9,7 +9,7 @@ const WorkExperience = () => {
     return (
         <section id='work' className='flex flex-col max-w-5xl mx-auto align-middle  justify-center'>
             <h1
-                className={`text-5xl lg:text-6xl text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-8`}>
+                className={`text-5xl lg:text-6xl text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-4 lg:underline-offset-8`}>
                 Work Experince
             </h1>
             <div className='pt-20  space-y-16 flex flex-col'>

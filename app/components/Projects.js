@@ -37,7 +37,7 @@ const Projects = () => {
     return (
         <section id='projects' className='flex flex-col align-middle  justify-center'>
             <h1
-                className={`text-5xl lg:text-6xl text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-8`}>
+                className={`text-5xl lg:text-6xl text-center ${reenieBeenie.className} text-[#10B981] underline decoration-[3px] underline-offset-4 lg:underline-offset-8`}>
                 Projects
             </h1>
             <div className='flex flex-col max-w-4xl mx-auto space-y-8 lg:space-y-16 pt-8 lg:pt-12'>
