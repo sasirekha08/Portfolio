@@ -16,6 +16,9 @@ const WorkExperience = () => {
                 <div className='mx-2 lg:mx-0 space-y-10 lg:space-y-0 space-x-0 lg:space-x-10 flex flex-col lg:flex-row'>
                     <div className='flex flex-col lg:basis-1/3 space-y-1.5 lg:space-y-6 lg:items-end '>
                         <Image src={Software} alt='Software Engineer' className='w-[300px] lg:w-[386px] lg:h-[51px]'  />
+                        <p className={`${robotoMono.className} text-base pt-2 inline-block lg:hidden  underline-offset-2 text-[#8E8E8E]`}>
+                            Torry Harris Integratio Solutions
+                        </p>
                         <p className={`${robotoMono.className} text-sm lg:text-lg text-[#8E8E8E]`}>
                             November 2021 - April 2024
                         </p>
@@ -74,6 +77,9 @@ const WorkExperience = () => {
                             alt='No code Low code Trainer'
                             className='w-[300px] lg:w-[386px] lg:h-[51px]' 
                         />
+                        <p className={`${robotoMono.className} text-base pt-2 inline-block lg:hidden  underline-offset-2 text-[#8E8E8E]`}>
+                            Torry Harris Integratio Solutions
+                        </p>
                         <p className={`${robotoMono.className} text-sm lg:text-lg text-[#8E8E8E]`}>
                             June 2021 - December 2021
                         </p>
@@ -99,6 +105,9 @@ const WorkExperience = () => {
                             alt='Associate Software Engineer'
                             className='w-[300px] lg:w-[386px] lg:h-[51px]' 
                         />
+                        <p className={`${robotoMono.className} text-base pt-2 inline-block lg:hidden  underline-offset-2 text-[#8E8E8E]`}>
+                            Torry Harris Integratio Solutions
+                        </p>
                         <p className={`${robotoMono.className} text-sm lg:text-lg text-[#8E8E8E]`}>
                             August 2019 - October 2021
                         </p>

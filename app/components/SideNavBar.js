@@ -1,10 +1,12 @@
 import Link from 'next/link'
 import { GoDotFill } from 'react-icons/go'
+import { robotoMono } from '../fonts'
+
 const SideNavBar = () => {
     return (
 
         <div className='fixed hidden lg:inline-flex right-8 top-1/2 transform -translate-y-1/2 max-h-[630px] z-40'>
-            <ul className='text-[#8E8E8E] text-xl group flex flex-col items-end space-y-12'>
+            <ul className={`text-[#8E8E8E] text-xl group flex flex-col items-end space-y-12 ${robotoMono.className}`}>
                 <li className='flex space-x-2 items-center justify-center'>
                     <Link href='#home' className='invisible group-hover:visible hover:translate-y-0.5 underline transition-opacity delay-150 duration-300 ease-in-out'>home</Link>
                     <GoDotFill className='text-[#10B981] text-xl' />

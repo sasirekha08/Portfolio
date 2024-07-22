@@ -12,26 +12,26 @@ const Projects = () => {
         {
             id:"pid01",
             image:TaskManagement,
-            demoLink:'',
-            sourceLink:''
+            demoLink:'https://task-management-swart.vercel.app/',
+            sourceLink:'https://github.com/sasirekha08/Task-Management'
         },
         {
             id:"pid02",
             image:MovieDb,
-            demoLink:'',
-            sourceLink:''
+            demoLink:'https://movie-db-ex.vercel.app/',
+            sourceLink:'https://github.com/sasirekha08/Movie-DB'
         },
         {
             id:"pid03",
             image:PixelPerfect,
-            demoLink:'',
-            sourceLink:''
+            demoLink:'https://pixel-perfect-fd.vercel.app/',
+            sourceLink:'https://github.com/sasirekha08/Pixel-Perfect'
         },
         {
             id:"pid04",
             image:WebWizard,
-            demoLink:'',
-            sourceLink:''
+            demoLink:'https://web-wizard-vis.vercel.app/',
+            sourceLink:'https://github.com/sasirekha08/Web-Wizard'
         }
     ]
     return (

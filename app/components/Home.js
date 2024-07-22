@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Profile from '../../public/profile_color.png'
 import HomeGroup from '../../public/home_group.png'
 import { reenieBeenie } from '../fonts'
+import Link from 'next/link'
 
 const Home = () => {
   return (
@@ -27,9 +28,9 @@ const Home = () => {
         <h1 className=''  style={{ fontWeight: '500' }}>Hello!{' '}</h1>
         <h1 className=''  style={{ fontWeight: '500' }}>
             I'm{' '}
-            <span className='underline decoration-[3px] underline-offset-4 lg:underline-offset-8'>
+            <Link href='https://github.com/sasirekha08'   rel="noopener noreferrer" target="_blank"><span className='underline decoration-[3px] underline-offset-4 lg:underline-offset-8'>
                 Sasi Rekha
-            </span>
+            </span></Link>
         </h1>
     </div>
 </section>
