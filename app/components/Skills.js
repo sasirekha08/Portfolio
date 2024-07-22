@@ -1,12 +1,12 @@
 'use client'
-import  { useState } from 'react'
+import { useState } from 'react'
 import Image from 'next/image'
 
 import { reenieBeenie } from '../fonts'
 import MySkills from '../../public/my_skills.png'
 import TechnicalLight from '../../public/technical_light.png'
 import InterpersonalLight from '../../public/interpersonal_light.png'
-import { HiMiniXMark } from "react-icons/hi2";
+import { HiMiniXMark } from 'react-icons/hi2'
 // import { MdOutlineCancel } from "react-icons/md";
 const Skills = () => {
     const [technicalClicked, setTechincalClicked] = useState(false)
@@ -43,25 +43,23 @@ const Skills = () => {
                 </div>
             ) : null}
 
-            {technicalClicked || interpersonalClicked? <div className="mt-[12%] mr-[7%] flex justify-end"><HiMiniXMark className="text-xl lg:text-3xl text-[#ED7D31] cursor-pointer" onClick={()=>{setTechincalClicked(false);setInterpersonalClicked(false)}}/></div>:null}
+            {technicalClicked || interpersonalClicked ? (
+                <div className='mt-[12%] mr-[7%] flex justify-end'>
+                    <HiMiniXMark
+                        className='text-xl lg:text-3xl text-[#ED7D31] cursor-pointer'
+                        onClick={() => {
+                            setTechincalClicked(false)
+                            setInterpersonalClicked(false)
+                        }}
+                    />
+                </div>
+            ) : null}
             {technicalClicked ? (
-                <Image
-                    src={TechnicalLight}
-                    alt='Skills'
-                    className=' mx-auto'
-                    width='1000'
-                    height='663'
-                />
+                <Image src={TechnicalLight} alt='Skills' className=' mx-auto' width='1000' height='663' />
             ) : null}
 
-{interpersonalClicked ? (
-                <Image
-                    src={InterpersonalLight}
-                    alt='Skills'
-                    className=' mx-auto'
-                    width='1000'
-                    height='663'
-                />
+            {interpersonalClicked ? (
+                <Image src={InterpersonalLight} alt='Skills' className=' mx-auto' width='1000' height='663' />
             ) : null}
         </section>
     )

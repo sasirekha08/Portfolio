@@ -15,16 +15,28 @@ const WorkExperience = () => {
             <div className='pt-20  space-y-16 flex flex-col'>
                 <div className='mx-2 lg:mx-0 space-y-10 lg:space-y-0 space-x-0 lg:space-x-10 flex flex-col lg:flex-row'>
                     <div className='flex flex-col lg:basis-1/3 space-y-1.5 lg:space-y-6 lg:items-end '>
-                        <Image src={Software} alt='Software Engineer' className='w-[300px] lg:w-[386px] lg:h-[51px]'  />
-                        <p className={`${robotoMono.className} text-base pt-2 inline-block lg:hidden  underline-offset-2 text-[#8E8E8E]`}>
+                        <Image
+                            src={Software}
+                            alt='Software Engineer'
+                            className='w-[300px] lg:w-[386px] lg:h-[51px]'
+                        />
+                        <p
+                            className={`${robotoMono.className} text-base pt-2 inline-block lg:hidden  underline-offset-2 text-[#8E8E8E]`}>
                             Torry Harris Integratio Solutions
                         </p>
                         <p className={`${robotoMono.className} text-sm lg:text-lg text-[#8E8E8E]`}>
                             November 2021 - April 2024
                         </p>
-                        <Image src={TorryHarris} alt='Torry Harris' className='hidden lg:inline-block' width='180' height='70' />
+                        <Image
+                            src={TorryHarris}
+                            alt='Torry Harris'
+                            className='hidden lg:inline-block'
+                            width='180'
+                            height='70'
+                        />
                     </div>
-                    <div className={`${robotoMono.className} flex flex-col align-middle justify-center lg:basis-2/3 mt-10 lg:mt-0 space-y-8 text-base lg:text-xl text-[#8E8E8E]`}>
+                    <div
+                        className={`${robotoMono.className} flex flex-col align-middle justify-center lg:basis-2/3 mt-10 lg:mt-0 space-y-8 text-base lg:text-xl text-[#8E8E8E]`}>
                         <p>
                             <span className='text-[#ED7D31]'>
                                 / Contributed significantly to creating a visual development platform
@@ -75,17 +87,25 @@ const WorkExperience = () => {
                         <Image
                             src={Trainer}
                             alt='No code Low code Trainer'
-                            className='w-[300px] lg:w-[386px] lg:h-[51px]' 
+                            className='w-[300px] lg:w-[386px] lg:h-[51px]'
                         />
-                        <p className={`${robotoMono.className} text-base pt-2 inline-block lg:hidden  underline-offset-2 text-[#8E8E8E]`}>
+                        <p
+                            className={`${robotoMono.className} text-base pt-2 inline-block lg:hidden  underline-offset-2 text-[#8E8E8E]`}>
                             Torry Harris Integratio Solutions
                         </p>
                         <p className={`${robotoMono.className} text-sm lg:text-lg text-[#8E8E8E]`}>
                             June 2021 - December 2021
                         </p>
-                        <Image src={TorryHarris} alt='Torry Harris' className='hidden lg:inline-block' width='180' height='70' />
+                        <Image
+                            src={TorryHarris}
+                            alt='Torry Harris'
+                            className='hidden lg:inline-block'
+                            width='180'
+                            height='70'
+                        />
                     </div>
-                    <div className={`${robotoMono.className} flex flex-col align-middle justify-center lg:basis-2/3 mt-10 lg:mt-0 space-y-8 text-base lg:text-xl text-[#8E8E8E]`}>
+                    <div
+                        className={`${robotoMono.className} flex flex-col align-middle justify-center lg:basis-2/3 mt-10 lg:mt-0 space-y-8 text-base lg:text-xl text-[#8E8E8E]`}>
                         <p>
                             <span className='text-[#ED7D31]'>/ Delivered comprehensive training</span> on
                             cutting-edge technologies, including low-code and no-code development,
@@ -99,21 +119,29 @@ const WorkExperience = () => {
                     </div>
                 </div>
                 <div className='mx-2 lg:mx-0 space-y-10 lg:space-y-0 space-x-0 lg:space-x-10 flex flex-col lg:flex-row'>
-                <div className='flex flex-col lg:basis-1/3 space-y-1.5 lg:space-y-6 lg:items-end '>
+                    <div className='flex flex-col lg:basis-1/3 space-y-1.5 lg:space-y-6 lg:items-end '>
                         <Image
                             src={Associate}
                             alt='Associate Software Engineer'
-                            className='w-[300px] lg:w-[386px] lg:h-[51px]' 
+                            className='w-[300px] lg:w-[386px] lg:h-[51px]'
                         />
-                        <p className={`${robotoMono.className} text-base pt-2 inline-block lg:hidden  underline-offset-2 text-[#8E8E8E]`}>
+                        <p
+                            className={`${robotoMono.className} text-base pt-2 inline-block lg:hidden  underline-offset-2 text-[#8E8E8E]`}>
                             Torry Harris Integratio Solutions
                         </p>
                         <p className={`${robotoMono.className} text-sm lg:text-lg text-[#8E8E8E]`}>
                             August 2019 - October 2021
                         </p>
-                        <Image src={TorryHarris} alt='Torry Harris' className='hidden lg:inline-block' width='180' height='70' />
+                        <Image
+                            src={TorryHarris}
+                            alt='Torry Harris'
+                            className='hidden lg:inline-block'
+                            width='180'
+                            height='70'
+                        />
                     </div>
-                    <div className={`${robotoMono.className} flex flex-col align-middle justify-center lg:basis-2/3 mt-10 lg:mt-0 space-y-8 text-base lg:text-xl text-[#8E8E8E]`}>
+                    <div
+                        className={`${robotoMono.className} flex flex-col align-middle justify-center lg:basis-2/3 mt-10 lg:mt-0 space-y-8 text-base lg:text-xl text-[#8E8E8E]`}>
                         <p>
                             <span className='text-[#ED7D31]'>
                                 / Developed multiple responsive, full fledged websites

@@ -20,13 +20,15 @@ const Header = () => {
                                 <Image src={Logo} width='50' height='50' alt='logo' />
                             </Link>
                             {/* <FiMoon className='text-2xl text-[#F5E595]' /> */}
-                            <p className={`text-[#B4B4B4] text-base lg:text-lg ${robotoMono.className}`}>en</p>
+                            <p className={`text-[#B4B4B4] text-base lg:text-lg ${robotoMono.className}`}>
+                                en
+                            </p>
                         </div>
                         {isMenuClicked ? (
                             <RiMenuFoldLine
-                            className='text-4xl cursor-pointer text-[#A6D990] lg:hidden inline-flex'
-                            onClick={() => setIsMenuClicked(!isMenuClicked)}
-                        />
+                                className='text-4xl cursor-pointer text-[#A6D990] lg:hidden inline-flex'
+                                onClick={() => setIsMenuClicked(!isMenuClicked)}
+                            />
                         ) : (
                             <RiMenuFold2Line
                                 className='text-4xl cursor-pointer text-[#A6D990] lg:hidden inline-flex'
@@ -35,17 +37,29 @@ const Header = () => {
                         )}
                     </div>
                 </nav>
-                {isMenuClicked?
-                <div className={`${robotoMono.className}  text-[#8E8E8E] pr-4 items-end justify-end lg:hidden flex flex-col mt-2 space-y-3  bg-white bg-opacity-70`}>
-                    <Link href='#home' className='pt-3 underline'>home</Link>
-                    <Link href='#about' className=' underline'>about me</Link>
-                    <Link href='#skills' className=' underline'>my skills</Link>
-                    <Link href='#work' className=' underline'>work experience</Link>
-                    <Link href='#projects' className='underline'>projects</Link>
-                    <Link href='#contact' className='pb-3 underline'>contact me</Link>
-
-
-                </div>:null}
+                {isMenuClicked ? (
+                    <div
+                        className={`${robotoMono.className}  text-[#8E8E8E] pr-4 items-end justify-end lg:hidden flex flex-col mt-2 space-y-3  bg-white bg-opacity-70`}>
+                        <Link href='#home' className='pt-3 underline'>
+                            home
+                        </Link>
+                        <Link href='#about' className=' underline'>
+                            about me
+                        </Link>
+                        <Link href='#skills' className=' underline'>
+                            my skills
+                        </Link>
+                        <Link href='#work' className=' underline'>
+                            work experience
+                        </Link>
+                        <Link href='#projects' className='underline'>
+                            projects
+                        </Link>
+                        <Link href='#contact' className='pb-3 underline'>
+                            contact me
+                        </Link>
+                    </div>
+                ) : null}
             </section>
         </div>
     )
