@@ -16,7 +16,8 @@ const Home = () => {
             height='370'
         />
     </div> */}
-            <Image src={HomeGroup} alt='Profile' className='max-w-full lg:max-w-3xl' />
+            <Image                     quality={100}
+src={HomeGroup} alt='Profile' className='max-w-full lg:max-w-3xl' />
             <div
                 className={`text-5xl md:text-6xl lg:text-7xl mb-10 lg:mb-0 flex flex-col items-start space-y-2 lg:space-y-5 ${reenieBeenie.className} text-[#10B981] `}>
                 <h1 className='' style={{ fontWeight: '500' }}>

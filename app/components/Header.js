@@ -17,7 +17,8 @@ const Header = () => {
                     <div className='flex justify-between w-full items-center '>
                         <div className='flex space-x-4 items-center '>
                             <Link href='/'>
-                                <Image src={Logo} width='50' height='50' alt='logo' />
+                                <Image                     quality={100}
+src={Logo} width='50' height='50' alt='logo' />
                             </Link>
                             {/* <FiMoon className='text-2xl text-[#F5E595]' /> */}
                             <p className={`text-[#B4B4B4] text-base lg:text-lg ${robotoMono.className}`}>

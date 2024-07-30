@@ -12,6 +12,7 @@ const AboutMe = () => {
                 </h1>
 
                 <Image
+                    quality={100}
                     src={AboutMeCollage}
                     alt='About Me'
                     className='pt-8 lg:pt-12 mx-auto'

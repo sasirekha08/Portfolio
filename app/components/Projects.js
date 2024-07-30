@@ -45,7 +45,8 @@ const Projects = () => {
                     return (
                         <div className='flex flex-col space-y-4 lg:space-y-10 ' key={project.id}>
                             <Image
-                                src={project.image}
+                                                    quality={100}
+                                                    src={project.image}
                                 alt='About Me'
                                 className='pt-12 mx-auto'
                                 width='898'

@@ -17,7 +17,8 @@ const WorkExperience = () => {
                 <div className='mx-2 lg:mx-0 space-y-10 lg:space-y-0 space-x-0 lg:space-x-10 flex flex-col lg:flex-row'>
                     <div className='flex flex-col lg:basis-1/3 space-y-1.5 lg:space-y-5 lg:items-end '>
                         <Image
-                            src={Software}
+                                                quality={100}
+                                                src={Software}
                             alt='Software Engineer'
                             className='w-[300px] lg:w-[386px] lg:h-[51px]'
                         />
@@ -32,7 +33,8 @@ const WorkExperience = () => {
                             Torry Harris Integration Solutions
                         </p>
                         <Image
-                            src={TorryHarris}
+                                                quality={100}
+                                                src={TorryHarris}
                             alt='Torry Harris'
                             className='hidden lg:inline-block'
                             width='180'
@@ -90,7 +92,8 @@ const WorkExperience = () => {
                 <div className='mx-2 lg:mx-0 space-y-10 lg:space-y-0 space-x-0 lg:space-x-10 flex flex-col lg:flex-row'>
                     <div className='flex flex-col lg:basis-1/3 space-y-1.5 lg:space-y-5 lg:items-end '>
                         <Image
-                            src={Trainer}
+                                                quality={100}
+                                                src={Trainer}
                             alt='No code Low code Trainer'
                             className='w-[300px] lg:w-[386px] lg:h-[51px]'
                         />
@@ -105,7 +108,8 @@ const WorkExperience = () => {
                             Torry Harris Integration Solutions
                         </p>
                         <Image
-                            src={TorryHarris}
+                                                quality={100}
+                                                src={TorryHarris}
                             alt='Torry Harris'
                             className='hidden lg:inline-block'
                             width='180'
@@ -132,7 +136,8 @@ const WorkExperience = () => {
                 <div className='mx-2 lg:mx-0 space-y-10 lg:space-y-0 space-x-0 lg:space-x-10 flex flex-col lg:flex-row'>
                     <div className='flex flex-col lg:basis-1/3 space-y-1.5 lg:space-y-5 lg:items-end '>
                         <Image
-                            src={Associate}
+                                                quality={100}
+                                                src={Associate}
                             alt='Associate Software Engineer'
                             className='w-[300px] lg:w-[386px] lg:h-[51px]'
                         />
@@ -147,7 +152,8 @@ const WorkExperience = () => {
                             Torry Harris Integration Solutions
                         </p>
                         <Image
-                            src={TorryHarris}
+                                                quality={100}
+                                                src={TorryHarris}
                             alt='Torry Harris'
                             className='hidden lg:inline-block'
                             width='180'
