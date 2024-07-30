@@ -122,7 +122,7 @@ const Skills = () => {
                     <div class='py-12 animate-marquee whitespace-nowrap'>
                         {skills.map((skill) => {
                             return (
-                                <div className='inline-flex mx-4 md:mx-6 flex-col justify-center items-center space-y-2'>
+                                <div key={skill.id} className='inline-flex mx-4 md:mx-6 flex-col justify-center items-center space-y-2'>
                                     <i className={`${skill.icon} colored text-[3rem] md:text-[4rem] lg:text-[5.5rem]`}></i>
                                     <p className={`${robotoMono.className} text-sm lg:text-base`}>{skill.title}</p>
                                 </div>
@@ -133,7 +133,7 @@ const Skills = () => {
                     <div class='absolute flex  top-0 py-12 animate-marquee2 whitespace-nowrap'>
                         {skills.map((skill) => {
                             return (
-                                <div className='inline-flex mx-4 md:mx-6 flex-col justify-center items-center space-y-2'>
+                                <div  key={skill.id}  className='inline-flex mx-4 md:mx-6 flex-col justify-center items-center space-y-2'>
                                     <i className={`${skill.icon} colored text-[3rem] md:text-[4rem] lg:text-[5.5rem]`}></i>
                                     <p className={`${robotoMono.className} text-sm lg:text-base`}>{skill.title}</p>
                                 </div>
