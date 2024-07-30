@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Home = () => {
     return (
-        <section id='#home' className='flex flex-col-reverse md:flex-row  md:space-x-12 items-center mt-8'>
+        <section id='#home' className='flex flex-col-reverse lg:flex-row  lg:space-x-12 items-center mt-8'>
             {/* <div className='profile-sunflower-backdrop '>
         <Image
             src={Profile}

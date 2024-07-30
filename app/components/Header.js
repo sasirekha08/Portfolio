@@ -12,8 +12,8 @@ const Header = () => {
     const [isMenuClicked, setIsMenuClicked] = useState(false)
     return (
         <div className='fixed w-full z-50 '>
-            <section className=' flex  flex-col   sm:block sm:h-auto '>
-                <nav className='bg-white bg-opacity-70  mx-auto flex h-[4rem] w-full 2xl:max-w-[1700px]  px-3 sm:py-10 sm:px-6'>
+            <section className=' bg-white/40 backdrop-blur-0 flex  flex-col   sm:block sm:h-auto '>
+                <nav className=' mx-auto flex h-[4rem] w-full 2xl:max-w-[1700px]  px-3 sm:py-10 sm:px-6'>
                     <div className='flex justify-between w-full items-center '>
                         <div className='flex space-x-4 items-center '>
                             <Link href='/'>
@@ -39,7 +39,7 @@ const Header = () => {
                 </nav>
                 {isMenuClicked ? (
                     <div
-                        className={`${robotoMono.className}  text-[#8E8E8E] pr-4 items-end justify-end lg:hidden flex flex-col mt-2 space-y-3  bg-white bg-opacity-70`}>
+                        className={`${robotoMono.className}  text-[#8E8E8E] pr-4 items-end justify-end lg:hidden flex flex-col mt-2 space-y-3  `}>
                         <Link href='#home' className='pt-3 underline'>
                             home
                         </Link>
