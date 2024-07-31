@@ -47,7 +47,7 @@ const ContactMe = () => {
                     <p className={`${robotoMono.className} text-[#A3ABA8] text-lg md:text-2xl lg:text-3xl`}>
                         Check out my{' '}
                         <Link
-                            href='https://drive.google.com/file/d/1e8rI1z4_lbigmS88J7lKeGxUw2w1sg0e/view?usp=sharing'
+                            href='https://drive.google.com/file/d/1gPjsHvNjb-jAdG0J0_sH6aBtmr41MMl5/view?usp=sharing'
                             rel='noopener noreferrer'
                             target='_blank'
                             className='text-[#D732A8] underline decoration-[1px] lg:decoration-[3px] underline-offset-4 lg:underline-offset-8'>
